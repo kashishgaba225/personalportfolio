@@ -5,7 +5,7 @@ export default function Contact() {
     const CONTACT={
         address:"F#133 Subhash Gate, Karnal,132001",
         phoneNo:"9467082615",
-        email:"kashishgabakashish530@gmail.com",
+        email:"kashishgaba225@gmail.com",
     };
   return (
     <div className='border-b border-neutral-900 pb-20'>
@@ -14,7 +14,7 @@ export default function Contact() {
         <div className='text-center tracking-tighter'>
             <p className='my-4'>{CONTACT.address}</p>
             <p className='my-4'>{CONTACT.phoneNo}</p>
-            <a href="#/" className='my-4 border-b'>{CONTACT.email}</a>
+            <a href="mailto:kashishgaba225@gmail.com" className='my-4 border-b'>{CONTACT.email}</a>
         </div>
     </div>
   )

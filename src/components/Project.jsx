@@ -35,14 +35,14 @@ export default function Project() {
 
       <div>
         {PROJECTS.map((project,index)=>(
-          <div className='mb-8 flex flex-wrap lg:justify-center' key={index}>
+          <div className='mb-8 mt-[50px] ring hover:ring-pink-600 px-2 rounded-md py-2 flex flex-wrap lg:justify-center' key={index}>
 
-            <div className='w-full lg:w-1/4'>
-            <img src={project.image} width={200} height={200} alt={project.title} />
+            <div className='w-full lg:w-1/4 '>
+            <img className='md:w-[220px] md:h-[200px]' src={project.image} alt={project.title} />
             </div>
 
             <div className='w-full max-w-xl lg:w-3/4'>
-            <h6 className='mb-2 font-semibold'>{project.title}</h6>
+            <h6 className='mb-2 font-semibold flex justify-center py-2'>{project.title}</h6>
             <p className='mb-4 text-neutral-400 '>{project.description}</p>
             <div className='flex flex-wrap justify-center items-center'>
             {project.technologies.map((technology,index)=>(
