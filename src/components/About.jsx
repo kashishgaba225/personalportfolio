@@ -1,5 +1,5 @@
 import React from 'react'
-import Picture from '../assests/Imagee.jpeg'
+import Pictureimg from '../assests/Imagee.jpeg'
 
 export default function About() {
   return (
@@ -9,8 +9,8 @@ export default function About() {
         <div className='flex flex-wrap'>
 
             <div className='w-full lg:w-1/2 lg:p-8'>
-                <div className='flex items-center justify-center'>
-                    <img className='rounded-md h-[400px] w-[400px]' src={Picture} alt="Picture" />
+                <div className='flex items-center justify-center '>
+                    <img className='rounded-md md:h-[400px] md:w-[360px] h-[300px] w-[360px]' src={Pictureimg} alt="imgdata" />
                 </div>
             </div>
 
