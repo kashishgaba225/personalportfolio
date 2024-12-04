@@ -10,7 +10,7 @@ export default function About() {
 
             <div className='w-full lg:w-1/2 lg:p-8'>
                 <div className='flex items-center justify-center '>
-                    <img className='rounded-md md:h-[400px] md:w-[360px] h-[300px] w-[360px]' src={Pictureimg} alt="imgdata" />
+                    <img className='rounded-md md:h-[400px] md:w-[360px] h-[350px] w-[460px]' src={Pictureimg} alt="imgdata" />
                 </div>
             </div>
 
