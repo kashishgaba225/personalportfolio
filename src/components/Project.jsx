@@ -44,9 +44,10 @@ export default function Project() {
             <div className='w-full max-w-xl lg:w-3/4'>
             <h6 className='mb-2 font-semibold'>{project.title}</h6>
             <p className='mb-4 text-neutral-400 '>{project.description}</p>
+            <div className='flex flex-wrap justify-center items-center'>
             {project.technologies.map((technology,index)=>(
               <span className='mr-2 rounded border border-neutral-800 px-2 py-1 text-xs hover:bg-neutral-800 hover:text-purple-800' key={index}>{technology}</span>
-            ))}
+            ))}</div>
             </div>
             </div>
         ))}
