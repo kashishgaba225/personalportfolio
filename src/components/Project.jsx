@@ -46,7 +46,7 @@ export default function Project() {
             <p className='mb-4 text-neutral-400 '>{project.description}</p>
             <div className='flex flex-wrap justify-center items-center'>
             {project.technologies.map((technology,index)=>(
-              <span className='mr-2 rounded border border-neutral-800 px-2 py-1 text-xs hover:bg-neutral-800 hover:text-purple-800' key={index}>{technology}</span>
+              <span className='mr-2 rounded border border-neutral-800 px-2 py-2 text-xs hover:bg-neutral-800 hover:text-pink-600 mb-2' key={index}>{technology}</span>
             ))}</div>
             </div>
             </div>
