@@ -21,7 +21,7 @@ export default function Experience() {
     ]
   return (
     <div>
-        <h1 className='my-20 text-center text-4xl'>Experince</h1>
+        <h1 className='my-20 text-center text-4xl'>Experience</h1>
 
         <div>
             {EXPERIENCES.map((experience,index)=>(
@@ -34,7 +34,7 @@ export default function Experience() {
                     <div className='w-full max-w-xl lg:3/4'>
                     <h6 className='mb-2 font-semibold'>{experience.role}- <span className='text-sm text-purple-100'>{experience.company}</span></h6>
                     <p className='mb-4 text-neutral-400'>{experience.description}</p>
-                    <div className='flex flex-wrap'>
+                    <div className='flex flex-wrap mb-2'>
                     {experience.technologies.map((technology,index)=>(
                         <span className='mr-2 rounded border border-neutral-800 px-2 py-1 text-xs hover:bg-neutral-800 hover:text-pink-400 cursor-pointer' key={index}>{technology}</span>
                     ))}</div>
