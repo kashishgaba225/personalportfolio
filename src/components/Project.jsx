@@ -2,6 +2,7 @@ import React from 'react'
 import project1 from '../assests/Blogger.jpeg'
 import project2 from '../assests/Screenshot.png'
 import project3 from '../assests/Shopping.jpeg'
+import {motion} from "framer-motion"
 
 export default function Project() {
 
@@ -31,24 +32,36 @@ export default function Project() {
 
   return (
     <div>
-      <h1 className='my-20 text-center text-4xl'>Projects</h1>
+      <motion.h1 
+       whileInView={{opacity:1, y:0}}
+       initial={{opacity:0 ,y:-100}}
+       transition={{duration:1.5}}
+      className='my-20 text-center text-4xl'>Projects</motion.h1>
 
       <div>
         {PROJECTS.map((project,index)=>(
           <div className='mb-8 mt-[50px] ring hover:ring-pink-600 px-2 rounded-md py-2 flex flex-wrap lg:justify-center' key={index}>
 
-            <div className='w-full lg:w-1/4 '>
+            <motion.div
+             whileInView={{ opacity: 1, x: 0 }}
+             initial={{ x: -100, opacity: 0 }}
+             transition={{ duration: 0.5 }}
+             className='w-full lg:w-1/4 '>
             <img className='md:w-[220px] md:h-[200px]' src={project.image} alt={project.title} />
-            </div>
+            </motion.div>
 
-            <div className='w-full max-w-xl lg:w-3/4'>
+            <motion.div 
+             whileInView={{ opacity: 1, x: 0 }}
+             initial={{ x: 100, opacity: 0 }}
+             transition={{ duration: 0.5 }}
+            className='w-full max-w-xl lg:w-3/4'>
             <h6 className='mb-2 font-semibold flex justify-center py-2'>{project.title}</h6>
             <p className='mb-4 text-neutral-400 '>{project.description}</p>
             <div className='flex flex-wrap justify-center items-center'>
             {project.technologies.map((technology,index)=>(
               <span className='mr-2 rounded border border-neutral-800 px-2 py-2 text-xs hover:bg-neutral-800 hover:text-pink-600 mb-2' key={index}>{technology}</span>
             ))}</div>
-            </div>
+            </motion.div>
             </div>
         ))}
       </div>
