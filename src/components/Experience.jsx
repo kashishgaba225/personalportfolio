@@ -6,7 +6,15 @@ export default function Experience() {
     const EXPERIENCES = [
 
         {
-            year: "September 2024 - Present",
+            year: "July 2025 - Present",
+            role: "Assistant Trainer",
+            company: "SKLZTECT LLP",
+            description: `I joined SKLZTECT LLP as an Assistant Trainer, where I am responsible for training university and college students across multiple partnered institutions, including IILM. My role focuses on delivering high-quality training in Web Development, UI Design, and Mac Essentials. As an Apple-certified trainer, I guide learners through essential macOS workflows, creative tools, and best practices for efficient learning.`,
+            technologies: ["Javascript", "React.js", "Tailwindcss", "Node.js", "Express", "Mongoose", "Redis", "Cloudinary","Figma","Keynotes",],
+
+        },
+        {
+            year: "August 2024 - May 2025",
             role: "MERN Stack Trainee",
             company: "Sqilco",
             description: `I joined the SQILCO MERN Stack training program, a comprehensive 4-month journey designed to build expertise in full-stack web development. This program provided me with in-depth knowledge and hands-on experience with MongoDB, Express.js, React, and Node.js. Upon completing the training, I transitioned into a Teaching Assistant role at SQILCO, where I further honed my programming skills by mentoring students, resolving complex coding challenges, and deepening my understanding of key technologies. This experience not only solidified my technical foundation but also enhanced my ability to collaborate and communicate effectively in a learning-focused environment.`,
