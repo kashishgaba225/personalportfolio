@@ -1,5 +1,5 @@
 import React from 'react'
-import Pictureimg from '../assests/Imagee.jpeg'
+import Pictureimg from '../assests/Imagee.png'
 import {motion} from 'framer-motion'
 
 export default function About() {
@@ -15,7 +15,7 @@ export default function About() {
                     whileInView={{opacity:1,x:0}}
                     initial={{x:-100,opacity:0}}
                     transition={{duration:0.5}}
-                    className='rounded-md md:h-[400px] md:w-[360px] h-[350px] w-[460px]' src={Pictureimg} alt="imgdata" />
+                    className='rounded-md md:h-[410px] md:w-[300px] h-[400px] w-[300px]' src={Pictureimg} alt="imgdata" />
                 </div>
             </div>
 
@@ -25,13 +25,7 @@ export default function About() {
                     whileInView={{opacity:1, x:0}}
                     initial={{x:100,opacity:0}}
                     transition={{duration:0.5}}
-                     className='my-2 max-w-xl py-6 pt-20'>I am dedicated and MERN Stack developer with a passion for creating
-                         efficient and user-friendly web applications.With 9 month of training and 6 month of internship 
-                         experience,I have worked with a variety of technologies , including React, Next.js, Node.js,
-                          MySQL, PostgreSQL and MongoDB. My journey in web development began with a deep curiosity for how things work,
-                          and it has evolved into a carrer where I continously strive to learn and adapt to new challenges. I thrive 
-                          in collabrative enviornments and enjoy solving complex problems to deliver high-quality solutions.
-                          Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects. </motion.p>
+                     className='my-2 max-w-xl py-6 pt-20'>I am a dedicated MERN Stack Developer with a passion for building efficient, scalable, and user-friendly web applications. With 1 year and 8 months of professional experience, I have worked with a wide range of technologies including React.js, Node.js, Express.js, MongoDB, MySQL, and PostgreSQL. My journey in web development started with a strong curiosity about how modern applications work, and it has grown into a career focused on continuous learning, innovation, and problem-solving. I enjoy working in collaborative environments where I can contribute to developing high-quality solutions and improving user experiences. Beyond coding, I enjoy exploring emerging technologies, enhancing my development skills, and staying updated with the latest trends in the tech industry. </motion.p>
                 </div>
             </div>
         </div>

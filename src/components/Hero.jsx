@@ -1,5 +1,5 @@
 import React from 'react'
-import ProfileImg from '../assests/Image.jpeg'
+import ProfileImg from '../assests/Imagge.png'
 import {motion} from 'framer-motion'
 
 export default function Hero() {
@@ -43,7 +43,7 @@ export default function Hero() {
           initial={{x:100, opacity:0}}
           animate={{x:0,opacity:1}}
           transition={{duration:1,delay:1.2}}
-          className='rounded-md md:h-[400px] md:w-[360px] h-[350px] w-[360px]' src={ProfileImg} alt="ProfileImg" />
+          className='rounded-md md:h-[430px] md:w-[320px] h-[350px] w-[360px]' src={ProfileImg} alt="ProfileImg" />
 
         </div>
         </div>
